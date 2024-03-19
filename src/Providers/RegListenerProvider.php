@@ -12,8 +12,8 @@ class RegListenerProvider extends ServiceProvider
 {
     public function boot()
     {
-        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
-        $this->loadViewsFrom(__DIR__.'/range396/RegListener/src/views', 'range396');
+        $this->loadRoutesFrom(__DIR__ .'/../Routes/web.php');
+        $this->loadViewsFrom(__DIR__.'/../Views', 'range396');
 //        $this->publishes(
 //            [__DIR__ . '../src/views' => base_path('resources/views/vendor/regListener')],
 //            'views'
