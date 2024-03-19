@@ -20,10 +20,10 @@
   },
   "autoload": {
     "classmap": [
-      "RegListener/src/"
+      "src/"
     ],
     "psr-4": {
-      "Range396\\RegListener\\": "RegListener/src/"
+      "Range396\\RegListener\\": "src/"
     }
   }
 }
