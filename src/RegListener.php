@@ -20,6 +20,7 @@ class RegListener extends AuthorizationListener implements ShouldQueue
 
     public function TestListen()
     {
-        return view('range396:welcome-email');
+//        return view('range396:welcome-email');
+        echo "Works";
     }
 }
